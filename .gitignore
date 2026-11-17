@@ -1,24 +1,61 @@
-# Visual Studio
+# ==========================================
+# 1. Visual Studio (Проекты .sln / .vcxproj)
+# ==========================================
 .vs/
 Debug/
 Release/
 x64/
 x86/
+[Bb]in/
+[Oo]bj/
 *.user
 *.suo
+*.sln.docstates
+*.userosscache
+*.cache
+*.db
+*.opendb
+*.VC.db
+*.VC.opendb
+*.ipch
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.lib
+*.exe
+*.dll
 
-# CMake
+# ==========================================
+# 2. CMake (Для Lab2, Lab3, lab4_OS)
+# ==========================================
 out/
 build/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
 *.cmake
 Testing/
 
-# Скомпилированные файлы
-*.exe
-*.out
-*.obj
-*.pdb
-*.ilk
+# ==========================================
+# 3. Файлы операционной системы и IDE
+# ==========================================
+Thumbs.db
+desktop.ini
+# VS Code
+.vscode/
+# CLion / JetBrains
+.idea/
+
+# ==========================================
+# 4. Временные файлы и логи
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
