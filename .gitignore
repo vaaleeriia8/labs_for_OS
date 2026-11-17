@@ -6,7 +6,15 @@ x64/
 x86/
 *.user
 *.suo
-*.sln.docstates
+
+# CMake
+out/
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+Testing/
 
 # Скомпилированные файлы
 *.exe
@@ -14,7 +22,3 @@ x86/
 *.obj
 *.pdb
 *.ilk
-
-# Архивы (если не хотите хранить их в гите)
-*.zip
-*.rar
