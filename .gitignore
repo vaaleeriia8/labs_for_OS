@@ -1,0 +1,20 @@
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.suo
+*.sln.docstates
+
+# Скомпилированные файлы
+*.exe
+*.out
+*.obj
+*.pdb
+*.ilk
+
+# Архивы (если не хотите хранить их в гите)
+*.zip
+*.rar
